@@ -16,6 +16,7 @@ export function Header(){
             <div className="flex gap-2">
                 <Image
                     src="/user-profile.jpg"
+                    loading="eager"
                     width={50}
                     height={50}
                     alt="Image"

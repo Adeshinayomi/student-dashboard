@@ -1,9 +1,10 @@
 import Link from "next/link"
-import { LayoutDashboard,UserRound,FileChartColumn,Settings,LogOut} from 'lucide-react';
+import { LayoutDashboard,UserRound,FileChartColumn,Settings,LogOut,School} from 'lucide-react';
 export function Sidebar(){
     return(
         <section className="fixed w-[20%] min-h-screen border-r p-5 grid ">
-            <Link href={'/'}>
+            <Link href={'/'} className="flex gap-2">
+                <School  />
                 School
             </Link>
 
