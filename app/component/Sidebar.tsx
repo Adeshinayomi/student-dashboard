@@ -1,7 +1,7 @@
  import Link from "next/link"
 export function Sidebar(){
     return(
-        <section className="w-[20%] min-h-screen border-r p-5 grid ">
+        <section className="fixed w-[20%] min-h-screen border-r p-5 grid ">
             <Link href={'/'}>
                 School
             </Link>
