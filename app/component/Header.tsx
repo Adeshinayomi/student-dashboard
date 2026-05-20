@@ -5,10 +5,10 @@ export function Header(){
        <header className="w-[80%] ml-auto flex p-5 justify-between items-center">
             <div>
                 <h1 className="text-xl">Dashboard</h1>
-                <span className="text-sm text-white/50">student management</span>
+                <span className="text-sm text-black/50">student management</span>
             </div>
 
-            <div className='flex gap-2 bg-white/25 px-4 py-2 rounded-full'>
+            <div className='w-1/3 flex gap-2 bg-black/25 px-4 py-2 rounded-full'>
                 <Search className='w-5 h-6'/>
                 <input type="text" placeholder="Search here..." className="w-full focus-none outline-none"/>
             </div>
@@ -24,7 +24,7 @@ export function Header(){
                 />
                 <div>
                     <h2>Minthun ray</h2>
-                    <span className="text-sm text-white/50">Student</span>
+                    <span className="text-sm text-black/50">Student</span>
                 </div>        
             </div>
        </header>
