@@ -13,7 +13,7 @@ export function Sidebar(){
                 <ul className="grid gap-2 w-5/6 mx-auto">
                     <Link href={'/'} className="flex gap-2 items-center">
                         <LayoutDashboard className="w-4 h-4"/>
-                        <span>Dashboard</span>
+                        <span className="font-bold">Dashboard</span>
                     </Link>
                     <Link href={'/students'} className="flex gap-2 items-center">
                         <UserRound className="w-4 h-4"/>

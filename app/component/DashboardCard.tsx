@@ -1,4 +1,4 @@
-import { BriefcaseBusiness,ChartPie,Calendar,ChevronUp,MoveRight } from 'lucide-react';
+import { BriefcaseBusiness,ChartPie,Calendar,ChevronUp,MoveRight,ChevronDown } from 'lucide-react';
 import type { card } from '@/types/cards';
 
 interface prop{
@@ -22,7 +22,9 @@ export function DashboardCard({card}:prop){
             <div className='flex gap-2'>
                 <h1 className='font-bold text-4xl'>{card.Percentage}%</h1>
                 <span className='flex place-self-end bg-white rounded-full px-2 text-[13px]'> 
-                    <ChevronUp className={`w-4 h-4 ${card.improvement > 0 ? 'text-green-500':'text-red-500'}`}/>    
+                    {card.improvement < 0 && <ChevronDown className='text-red-500 w-4 h-4 '/>}
+                    {card.improvement > 0 && <ChevronUp className='text-green-500 w-4 h-4 '/>}
+                       
                     {card.improvement}%
                 </span>
             </div>

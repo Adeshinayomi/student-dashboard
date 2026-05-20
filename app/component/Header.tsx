@@ -23,7 +23,7 @@ export function Header(){
                     className="rounded-full"
                 />
                 <div>
-                    <h2>Minthun ray</h2>
+                    <h2>Adeshinayomi</h2>
                     <span className="text-sm text-black/50">Student</span>
                 </div>        
             </div>
