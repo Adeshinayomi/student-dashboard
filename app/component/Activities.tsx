@@ -1,5 +1,6 @@
 import {Calendar} from 'lucide-react'
 import { Activity } from './Activity'
+import { ActivityData } from '@/data/activity'
 export function Activities(){
     return(
         <section className='w-full grid gap-5 p-5'>
@@ -11,7 +12,15 @@ export function Activities(){
                     <span>Today</span>
                 </button>
             </div>
-            <Activity />
+            {ActivityData.map((data)=>{
+                return(
+                    <div key={data.id} className='grid gap-2'>
+                        <Activity data={data}/>
+                        <hr className='bg-black/25 border-none h-[0.1rem]'/>
+                    </div>
+                )
+            })} 
+          
         </section>
     )
 }
