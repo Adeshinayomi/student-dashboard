@@ -6,7 +6,7 @@ import { Activities } from "./component/Activities";
 
 export default function Home() {
   return (
-    <section className="w-[80%] ml-auto p-5 grid gap-5">
+    <section className="w-[80%] ml-auto p-5 grid gap-5 dark:bg-slate-900 dark:text-white">
       <div className="flex gap-5">
           {cards.map((card)=>{
             return(

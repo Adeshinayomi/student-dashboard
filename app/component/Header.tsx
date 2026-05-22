@@ -1,8 +1,9 @@
 import Image from "next/image";
 import {Search} from 'lucide-react';
+import ThemeToggle from "./ThemeToggle";
 export function Header(){
     return(
-       <header className="w-[80%] ml-auto flex p-5 justify-between items-center">
+       <header className="w-[80%] ml-auto flex p-5 justify-between items-center dark:bg-slate-900 dark:text-white">
             <div>
                 <h1 className="text-xl">Dashboard</h1>
                 <span className="text-sm text-black/50">student management</span>
@@ -14,6 +15,7 @@ export function Header(){
             </div>
 
             <div className="flex gap-2">
+                <ThemeToggle />
                 <Image
                     src="/user-profile.jpg"
                     loading="eager"
