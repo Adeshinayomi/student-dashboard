@@ -9,7 +9,7 @@ export function Activity({data}:prop){
         <div className='grid grid-cols-3 justify-between'>
             <div className='flex items-center gap-2 '>
                 <div className={`p-3 ${data.color} rounded-full`}>
-                    <Icon className="w-4 h-4"/>
+                    <Icon className="w-4 h-4 dark:text-black"/>
                 </div>
                 
                 <h4 className='text-lg font-bold'>{data.name}</h4>

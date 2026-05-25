@@ -7,7 +7,7 @@ export function Activities(){
             <div className='flex justify-between '>
                 <h1 className='text-2xl font-bold '>Activities</h1>
 
-                <button className='flex gap-2 bg-gray-200 px-4 py-2 rounded-full'>
+                <button className='flex gap-2 bg-gray-200 px-4 py-2 rounded-full dark:text-black'>
                     <Calendar />
                     <span>Today</span>
                 </button>
