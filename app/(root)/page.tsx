@@ -1,7 +1,7 @@
 import { DashboardCard } from "./component/DashboardCard";
 import GPAChart from "./component/chart";
 import AssignmentChart from "./component/piechart";
-import {cards} from '../data/cards'
+import {cards} from '../../data/cards'
 import { Activities } from "./component/Activities";
 
 export default function Home() {

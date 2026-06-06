@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { Sidebar } from "./component/Sidebar";
-import { Header } from "./component/Header";
+import { Sidebar } from "./(root)/component/Sidebar";
 import { ThemeProvider } from "next-themes";
 import "./globals.css";
 
@@ -37,10 +36,7 @@ export default function RootLayout({
           defaultTheme="light"
           enableSystem={false}
         >
-          <Sidebar />
-
-          <Header />
-    
+          <Sidebar />    
 
           <main>
             {children}
