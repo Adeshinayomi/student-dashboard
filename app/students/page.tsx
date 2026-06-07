@@ -77,7 +77,7 @@ function Student(){
                         <h1 className='font-bold'>Parents Information</h1>
                         <div className='flex items-center gap-2 justify-between bg-white p-2 rounded-full'>
                             <div className='flex items-center gap-2'>
-                                <Image src="/user-profile.jpg" alt='image' width={40} height={40} className='rounded-full'/>
+                                <Image src="/dad.jpg" alt='image' width={50} height={50} className='rounded-full'/>
                                 <div>
                                     <p>Bhadmus Ade</p>
                                     <span>Father</span>
@@ -88,7 +88,7 @@ function Student(){
                         </div>
                         <div className='flex items-center gap-2 justify-between bg-white p-2 rounded-full'>
                             <div className='flex items-center gap-2'>
-                                <Image src="/user-profile.jpg" alt='image' width={40} height={40} className='rounded-full'/>
+                                <Image src="/mom.jpg" alt='image' width={50} height={50} className='w-12 h-12 rounded-full'/>
                                 <div>
                                     <p>Bhadmus Oyin</p>
                                     <span>Mother</span>
